@@ -16,9 +16,9 @@ body {
   line-height: 100px;
   text-align: center;
   transform-style: preserve-3d;
-  animation: rotate 3s infinite;
+  animation: rotate 8s infinite;
 }
-
+/* cube creation code */
 .cube {
   font-family: 'Ubuntu', sans-serif;
   background: white;
@@ -28,4 +28,42 @@ body {
   box-shadow: inset 0 0 0 3px black;
   filter: saturate(1.5);
   opacity: 0.8;
+}
+/* styling the name acronyms */
+.front {
+  transform: translate3d(0, 0, 50px);
+}
+.back {
+  transform: rotateY(180deg) translate3d(0, 0, 50px);
+}
+.top {
+  transform: rotateX(90deg) translate3d(0, 0, 50px);
+}
+.bottom {
+  transform: rotateX(-90deg) translate3d(0, 0, 50px);
+}
+.left {
+  transform: rotateY(-90deg) translate3d(0, 0, 50px);
+}
+.right {
+  transform: rotateY(90deg) translate3d(0, 0, 50px);
+}
+
+/* the rotate animation keyframe */
+@keyframes rotate {
+  20% {
+    transform: rotateY(90deg) rotateZ(0deg);
+  }
+  40% {
+    transform: rotateX(45deg) rotateZ(90deg);
+  }
+  60% {
+    transform: rotateX(90deg) rotateY(120deg);
+  }
+  80% {
+    transform: rotateX(240deg) rotateZ(120deg);
+  }
+  100% {
+    transform: rotateX(320deg) rotateZ(360deg);
+  }
 }
