@@ -1,7 +1,7 @@
 # named_cube
 Putting my name down on a cube.
            
-<img src="" width="400" height="400">             
+<img src="https://github.com/ShaviyaVictor/named_cube/blob/main/assets/images/cubeScreenshot.png" width="400" height="400">             
 
 ## Built With
 
@@ -12,7 +12,7 @@ Putting my name down on a cube.
 
 ## License
 
-This project is licensed under the [MIT License]().     
+This project is licensed under the [MIT License](https://github.com/ShaviyaVictor/named_cube/blob/main/LICENSE).     
 
 ## Acknowledgments
 
